@@ -1,0 +1,105 @@
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(to right, #f5f5f5, #e3f2fd);
+    padding: 20px;
+  }
+  
+  .project-paper {
+    width: 90%;
+    max-width: 1000px;
+    padding: 30px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Project Content */
+  .project-content {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-weight: bold;
+    color: #2e7d32;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .project-description {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Tech Stack Chips */
+  .tech-stack {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .tech-chip {
+    background-color: #64b5f6 !important;
+    color: white !important;
+    font-weight: bold !important;
+  }
+  
+  /* Project Image */
+  .project-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Navigation Buttons */
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .nav-button {
+    background-color: #4caf50 !important;
+    color: white !important;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .nav-button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* View Project Button */
+  .project-button {
+    background-color: #1976d2 !important;
+    color: white !important;
+    margin-top: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-content {
+      text-align: center;
+    }
+  
+    .button-group {
+      justify-content: center;
+    }
+  }
+  

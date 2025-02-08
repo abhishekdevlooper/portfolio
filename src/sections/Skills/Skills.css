@@ -1,0 +1,31 @@
+.skills-container {
+  padding: 50px;
+  background: linear-gradient(to right, #f5f5f5, #e3f2fd);
+  color: white;
+  text-align: center;
+}
+
+.skill-paper {
+  background: #333;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-paper:hover {
+  transform: scale(1.1);
+  background: rgb(246, 190, 175);
+}
+
+.skill-chip {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: #ffcc00;
+  padding: 10px;
+}
+
+.skill-avatar {
+  width: 30px;
+  height: 30px;
+}

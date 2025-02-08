@@ -1,0 +1,36 @@
+.contact-container {
+  position: relative;
+  padding: 50px;
+  background: url("https://source.unsplash.com/1600x900/?technology,abstract") center/cover;
+  color: white;
+  text-align: center;
+}
+
+.contact-overlay {
+  background: rgba(231, 241, 250, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.contact-paper {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-input {
+  background: white;
+  border-radius: 5px;
+}
+
+.contact-button {
+  background: #ffcc00;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background: #9ce2f6;
+}

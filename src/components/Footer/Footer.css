@@ -1,0 +1,27 @@
+.footer {
+  background: #e3f2fd;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #1976d2;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #1976d2;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.icon {
+  color: #1976d2;
+  font-size: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  color: #1565c0;
+}

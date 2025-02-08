@@ -1,0 +1,52 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #e3f2fd; /* ✅ Lightest Blue */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px 40px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar title (Logo/Text) */
+.navbar-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #fbfdff; /* ✅ Darker blue for contrast */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-left: 10px;
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  padding-right: 20px;
+}
+
+/* Navbar buttons */
+.navbar-button {
+  color: #daebff !important; /* ✅ Darker blue for better readability */
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px 16px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.navbar-button:hover {
+  transform: scale(1.1);
+  background-color: rgba(21, 101, 192, 0.1); /* ✅ Slight hover effect */
+  color: #f0f3f8 !important;
+}
+
+/* 🔥 Prevent content from being hidden under navbar */
+body {
+  padding-top: 80px;
+}
